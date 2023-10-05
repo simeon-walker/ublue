@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: silverblue-docker
 # description will be included in the image's metadata
-description: A starting point for further customization of uBlue images. Make your own! https://ublue.it/making-your-own/
+description: A uBlue Silverblue build with Docker instead of Podman
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
@@ -33,6 +33,7 @@ modules:
       - docker-ce
     remove:
       - toolbox
+      - podman
       - podman-compose
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
