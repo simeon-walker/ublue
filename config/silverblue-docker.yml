@@ -31,12 +31,13 @@ modules:
       - vim
       - code
       - docker-ce
+      - gstreamer1-vaapi
+      - gstreamer1-plugin-openh264
     remove:
       - toolbox
       - podman
+      - podman-plugins
       - podman-compose
-      - firefox # default firefox removed in favor of flatpak
-      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
