@@ -40,7 +40,8 @@ jobs:
         # Don't add module configuration files, you will get errors.
         recipe:
           - base-main.yml
-          - silverblue.yml
+          - silverblue-main.yml
+          - silverblue-docker.yml
 # !!!
 
     steps:
