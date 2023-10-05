@@ -30,6 +30,7 @@ modules:
       - gnome-tweaks
       - vim
       - code
+      - docker-ce
     remove:
       - toolbox
       - podman-compose
