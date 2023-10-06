@@ -41,7 +41,6 @@ jobs:
         recipe:
           - base-main.yml
           - silverblue-main.yml
-          - silverblue-docker.yml
 # !!!
 
     steps:
