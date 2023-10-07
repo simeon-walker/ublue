@@ -26,12 +26,61 @@ modules:
       - samba
       - rsyslog
     remove:
-      - xorg-x11-server-Xorg
       - firefox
       - firefox-langpacks
       - open-sans-fonts
       - google-noto-sans-thai-vf-fonts
       - google-noto-sans-thaana-vf-fonts
+      # xorg driver need remvoving together
+      - xorg-x11-server-Xorg
+      - xorg-x11-server-Xwayland
+      - xorg-x11-drv-amdgpu
+      - xorg-x11-drv-ati
+      - xorg-x11-drv-evdev
+      - xorg-x11-drv-fbdev
+      - xorg-x11-drv-intel
+      - xorg-x11-drv-libinput
+      - xorg-x11-drv-nouveau
+      - xorg-x11-drv-openchrome
+      - xorg-x11-drv-qxl
+      - xorg-x11-drv-vesa
+      - xorg-x11-drv-vmware
+      - xorg-x11-drv-wacom
+      #  gstreamer
+      - gstreamer1-plugins-base
+      - gstreamer1-plugins-good
+      - gstreamer1-plugins-good-qt
+      - gstreamer1-plugins-bad-free
+      - gstreamer1-plugins-ugly-free
+      - gstreamer1-plugin-libav 
+      - pipewire-gstreamer
+      - tracker-miners
+      - ibus-gtk4
+      - gtk4
+      # qt5
+      - qt5-qtbase
+      - qt5-qtbase-common
+      - qt5-qtbase-gui
+      - qt5-qtgraphicaleffects
+      - qt5-qtquickcontrols2
+      - qt5-qtwayland
+      - qt5-qtdeclarative
+      - qt5-qtx11extras
+      - qt5-qtxmlpatterns 
+      - adwaita-qt5
+      - qgnomeplatform-qt5
+      - libadwaita-qt5
+      # ibus
+      - ibus
+      - ibus-anthy
+      - ibus-anthy-python
+      - ibus-gtk3
+      - ibus-hangul
+      - ibus-libpinyin
+      - ibus-libzhuyin
+      - ibus-m17n
+      - ibus-setup
+      - ibus-typing-booster
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
