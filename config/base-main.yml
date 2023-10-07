@@ -24,9 +24,14 @@ modules:
       - postfix
       - python3-pip
       - samba
+      - rsyslog
     remove:
-      - podman-compose
-
+      - xorg-x11-server-Xorg
+      - firefox
+      - firefox-langpacks
+      - open-sans-fonts
+      - google-noto-sans-thai-vf-fonts
+      - google-noto-sans-thaana-vf-fonts
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
