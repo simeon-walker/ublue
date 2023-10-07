@@ -1,5 +1,6 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: simeon-walker/ublue
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: startingpoint
+      - label: silverblue-main
+      - label: base-main
