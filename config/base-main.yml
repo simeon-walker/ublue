@@ -25,6 +25,7 @@ modules:
       - python3-pip
       - samba
       - rsyslog
+      - nethogs
     remove:
       - firefox
       - firefox-langpacks
