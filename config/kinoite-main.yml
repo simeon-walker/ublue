@@ -30,6 +30,9 @@ modules:
       - skanlite
       - okular
       - ksystemlog
+      - isoimagewriter
+      - vlc
+      - kid3
       - distrobox
       - minicom
       - vim
