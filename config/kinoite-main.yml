@@ -33,6 +33,7 @@ modules:
       - ksystemlog
       - isoimagewriter
       - vlc
+      - vlc-plugin-samba
       - kid3
       - distrobox
       - minicom
