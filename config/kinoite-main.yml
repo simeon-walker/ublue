@@ -43,7 +43,6 @@ modules:
       - printer-driver-brlaser
       - lightly
       - klassy
-      - java-11-openjdk
     remove:
       - firefox # default firefox removed in favor of flatpak
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
